@@ -1,1 +1,1 @@
-package loggings
+package logging
