@@ -1,0 +1,50 @@
+
+# Binaries and compiled files
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.o
+*.out
+
+# Go-specific ignored files
+/bin/
+/pkg/
+/vendor/
+*.test
+*.cover
+*.mod
+*.sum
+*.exe
+
+# Logs and debugging
+*.log
+*.trace
+*.prof
+*.dump
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Dependency directories
+node_modules/
+target/
+build/
+dist/
+
+# Temporary files
+*.tmp
+*.cache
+.DS_Store
+Thumbs.db
+*.bkp
+
+# Docker and Kubernetes
+docker-compose.override.yml
+.env
+.k8s/
